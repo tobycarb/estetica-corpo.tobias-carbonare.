@@ -1,0 +1,11 @@
+// propiedades
+$color1: #dc1449;
+$colorletras: black;
+$color-sombra: white;
+body{background-image:linear-gradient(to left,white,#dc1449);
+}
+// header
+@import"header";
+// carousel
+@import"carucel";
+@import"formulario";
