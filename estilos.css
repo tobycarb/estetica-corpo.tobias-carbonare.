@@ -1,11 +1,12 @@
+@charset "UTF-8";
 body {
   background-image: -webkit-gradient(linear, right top, left top, from(white), to(#dc1449));
   background-image: linear-gradient(to left, white, #dc1449);
 }
 
-h1 {
+.h1 {
   text-align: center;
-  font-size: 100px;
+  font-size: 50px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: black;
   text-transform: capitalize;
@@ -46,12 +47,13 @@ h1 {
 
 .carousel-inner {
   padding: 7px;
+  border: 50px solid burlywood;
 }
 
 .carousel-inner .carousel-item img {
   height: 400px;
-  width: 100%;
-  height: 500px;
+  width: 30%;
+  height: 600px;
 }
 
 .carousel-inner div h5 {
@@ -67,7 +69,6 @@ h1 {
 
 .formiulario {
   width: 100%;
-  height: 350px;
 }
 
 .formiulario .text-center {
@@ -83,11 +84,158 @@ form {
   padding: 15px;
 }
 
-form.row.g-3.needs-validation {
-  margin: 0;
-}
-
 .nav.nav-justified {
   padding: 50px;
+}
+
+.col {
+  height: 250px;
+  border: solid 8px white;
+}
+
+.columnaservicios {
+  padding: 5px;
+  margin: auto;
+}
+
+.col {
+  background-size: cover;
+}
+
+.item1 {
+  background-image: url(/imagenes/diseñomanos.jpg);
+}
+
+.item2 {
+  background-image: url(/imagenes/peluqueriagrid.jpg);
+}
+
+.item3 {
+  background-image: url(/imagenes/depilacion.jpg);
+}
+
+.item4 {
+  background-image: url(/imagenes/diseñomanos.jpg);
+}
+
+.item5 {
+  background-image: url(/imagenes/maasjespa.jpg);
+}
+
+.item6 {
+  background-image: url(/imagenes/pestañas.jpg);
+}
+
+.item7 {
+  background-image: url(/imagenes/ondasdechoque.jpg);
+}
+
+.item8 {
+  background-image: url(/imagenes/tinturagrid.jpg);
+  background-position: center;
+}
+
+.item9 {
+  background-image: url(/imagenes/limpiezafacial.jpg);
+}
+
+.item10 {
+  background-image: url(/imagenes/masajes.jpg);
+}
+
+.item11 {
+  background-image: url(/imagenes/peinadosfiesta.jpg);
+}
+
+.item12 {
+  background-image: url(/imagenes/maquillajeprofecional.jpg);
+}
+
+.col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.titimg {
+  text-shadow: 1px 1px whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  background-color: #dc1449;
+}
+
+.col:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.95s;
+  transition: 0.95s;
+}
+
+.nav a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.95s;
+  transition: 0.95s;
+}
+
+.carousel-inner {
+  padding: 10px;
+}
+
+.pestañasimg, .uñasimg, .masajesimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 70%;
+  height: 400px;
+  border: 5px double gold;
+}
+
+.cpestañas, .cuñas, .cmasajes {
+  padding: 5px;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+.pesta {
+  background-color: violet;
+}
+
+.uñ {
+  background-color: pink;
+}
+
+.mas {
+  background-color: purple;
+}
+
+.cursoex {
+  border: 10px solid purple;
+  list-style: none;
+}
+
+.fh {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: black;
+}
+
+.dondestamos {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+span {
+  font-size: 35px;
+  color: darkmagenta;
 }
 /*# sourceMappingURL=estilos.css.map */

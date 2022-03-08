@@ -1,0 +1,37 @@
+.col {
+    height: 250px;
+border: solid 8px white;
+
+}
+.columnaservicios {padding: 5px;
+margin: auto;}
+.col{background-size: cover;}
+    .item1 {background-image: url(/imagenes/diseñomanos.jpg);}
+    .item2 {background-image: url(/imagenes/peluqueriagrid.jpg);}
+    .item3{background-image: url(/imagenes/depilacion.jpg);}
+    .item4{background-image: url(/imagenes/diseñomanos.jpg);}
+    .item5{background-image: url(/imagenes/maasjespa.jpg);}
+    .item6{background-image: url(/imagenes/pestañas.jpg);}
+    .item7 {background-image: url(/imagenes/ondasdechoque.jpg);}
+    .item8{background-image: url(/imagenes/tinturagrid.jpg);
+    background-position: center;}
+    .item9{background-image: url(/imagenes/limpiezafacial.jpg);}
+    .item10 {background-image: url(/imagenes/masajes.jpg);}
+    .item11 {background-image: url(/imagenes/peinadosfiesta.jpg);}
+    .item12 {background-image: url(/imagenes/maquillajeprofecional.jpg);}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.titimg {
+    text-shadow:1px 1px whitesmoke ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    background-color: #dc1449;
+}
+.col:hover {transform: scale(1.10);
+transition: 0.95s ;}
+.nav a:hover {transform: scale(1.10);
+    transition: 0.95s}
+.carousel-inner{padding: 10px;}
