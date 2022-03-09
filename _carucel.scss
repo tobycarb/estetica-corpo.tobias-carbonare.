@@ -1,8 +1,8 @@
 .carousel-inner {padding: 7px;
-    border: 50px solid burlywood;
-.carousel-item img {height: 400px;
+    border: 20px solid burlywood;
+.carousel-item img {height: 50px;
     width: 30%;
-    height: 600px;}
+    height: 400px;}
 div{
     h5 {
             color: $colorletras;
@@ -14,5 +14,8 @@ div{
     }
     .listasimg {background-color: $color1;
         text-transform: capitalize;
+        
     }  
+    .carousel-caption {display: grid;
+    align-items: flex-end;}
 }    

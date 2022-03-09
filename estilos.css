@@ -47,13 +47,13 @@ body {
 
 .carousel-inner {
   padding: 7px;
-  border: 50px solid burlywood;
+  border: 20px solid burlywood;
 }
 
 .carousel-inner .carousel-item img {
-  height: 400px;
+  height: 50px;
   width: 30%;
-  height: 600px;
+  height: 400px;
 }
 
 .carousel-inner div h5 {
@@ -65,6 +65,14 @@ body {
 .carousel-inner .listasimg {
   background-color: #dc1449;
   text-transform: capitalize;
+}
+
+.carousel-inner .carousel-caption {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .formiulario {
@@ -228,6 +236,10 @@ form {
   color: black;
 }
 
+.subt {
+  text-transform: capitalize;
+}
+
 .dondestamos {
   display: -ms-grid;
   display: grid;
@@ -237,5 +249,9 @@ form {
 span {
   font-size: 35px;
   color: darkmagenta;
+}
+
+a {
+  text-transform: capitalize;
 }
 /*# sourceMappingURL=estilos.css.map */
