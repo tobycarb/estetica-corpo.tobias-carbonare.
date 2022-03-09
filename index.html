@@ -93,14 +93,14 @@ Array.prototype.slice.call(forms)
   <form name="contact" action="POST" data-netlify="true" class="row g-3 needs-validation" novalidate=""  data-aos="zoom-in-right">
       <div class="col-md-4 position-relative">
         <label for="validationTooltip01" class="form-label">nombre</label>
-        <input type="text" class="form-control" id="validationTooltip01"  required="">
+        <input name="nombre" type="text" class="form-control" id="validationTooltip01"  required="">
         <div class="valid-tooltip">
           Looks good!
         </div>
       </div>
       <div class="col-md-4 position-relative">
         <label for="validationTooltip02" class="form-label">apellido</label>
-        <input type="text" class="form-control" id="validationTooltip02"  required="">
+        <input name="apellido" type="text" class="form-control" id="validationTooltip02"  required="">
         <div class="valid-tooltip">
           Looks good!
         </div>
@@ -109,7 +109,7 @@ Array.prototype.slice.call(forms)
         <label for="validationTooltipUsername" class="form-label">Email</label>
         <div class="input-group has-validation">
           <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-          <input type="email" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required="">
+          <input name="email" type="email" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required="">
           <div class="invalid-tooltip">
             Please choose a unique and valid username.
           </div>
@@ -124,7 +124,7 @@ Array.prototype.slice.call(forms)
       </div>
       <div class="col-md-3 position-relative">
         <label for="validationTooltip04" class="form-label">servicios</label>
-        <select class="form-select" id="validationTooltip04" required="">
+        <select name="servicios" class="form-select" id="validationTooltip04" required="">
           <option selected="" disabled="" value="">ondas de choque</option>
           <option>depilacion</option>
           <option>masajes</option>
@@ -137,7 +137,7 @@ Array.prototype.slice.call(forms)
       </div>
       <div class="col-md-3 position-relative">
         <label for="validationTooltip05" class="form-label">fecha</label>
-        <input type="date" class="form-control" id="validationTooltip05" required="">
+        <input name="fecha" type="date" class="form-control" id="validationTooltip05" required="">
         <div class="invalid-tooltip">
           Please provide a valid zip.
         </div>
